@@ -1,0 +1,22 @@
+.Padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#nuevasTareas {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: auto;
+}
+
+.elementiLista {
+    list-style: none;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px chartreuse;
+}
